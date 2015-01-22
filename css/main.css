@@ -1,13 +1,52 @@
-.main{
-
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
 }
+.main{
+	min-height: 100%;
+	position: relative;
+}
+.content{
+	padding:10px;
+	padding-bottom:49px;
+}
+
+.navbar{
+	width:150px;
+	margin-right:0px;
+	margin-left:auto;
+	position:absolute;
+	padding:15px;
+	right:150px;
+}
+
 li.navlink,li.loginbutton{
 	list-style-type: none;
-	
 	display:inline;
+	padding-left:15px;
+
 }
+.navlink a{
+	text-decoration:none;
+	color:#000;
+	font:13px/27px Arial,sans-serif;
 
-
+	
+}
+.navlink a:hover{
+	color:#000;
+	text-decoration: underline;
+	
+}
+.loginbutton{
+	background-color:blue;
+	min-height:30px;
+}
+.logoframe{
+	height:120px;
+	padding-top:122px;
+}
 
 .logo{
 	background:url("https://www.google.de/images/srpr/logo11w.png");
@@ -15,6 +54,7 @@ li.navlink,li.loginbutton{
 	width:269px;
 	height: 95px;
 	margin:auto;
+	
 }
 .searchbar{
 	margin:auto;
@@ -25,4 +65,66 @@ input[type="text"]{
 	width:570px;
 	height:19px;
 
+}
+.searchbuttons{
+	width:210px;
+	padding-top:20px;
+	margin:auto;
+}
+.searchbuttons input[type="submit"] {
+
+	margin:auto;
+	display: inline-block;
+	background-color: #f5f5f5;
+	color: #444;
+	
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height: 27px;
+	line-height: 11px;
+	min-width: 54px;
+	padding: 0 0px;
+	text-decoration: none;
+	
+
+}
+.footer{
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:#f5f5f5;
+	border-top: 1px solid #dcdcdc
+}
+li.footlink{
+	list-style-type: none;
+	display:inline;
+	padding-left:15px;
+}
+.footlink a{
+	text-decoration:none;
+	color:#000;
+	font:13px/27px Arial,sans-serif;
+}
+
+.footlink a:hover{
+	color:#000;
+	text-decoration: underline;
+	
+}
+.footleft{
+	position:absolute;
+	bottom:6px;
+
+}
+.footright{
+	position:absolute;
+	right:20px;
+	bottom:6px;
 }
