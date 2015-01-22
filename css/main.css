@@ -1,0 +1,28 @@
+.main{
+
+}
+li.navlink,li.loginbutton{
+	list-style-type: none;
+	
+	display:inline;
+}
+
+
+
+.logo{
+	background:url("https://www.google.de/images/srpr/logo11w.png");
+	background-size:269px 95px;
+	width:269px;
+	height: 95px;
+	margin:auto;
+}
+.searchbar{
+	margin:auto;
+	width:570px;
+	height:19px;
+}
+input[type="text"]{
+	width:570px;
+	height:19px;
+
+}
